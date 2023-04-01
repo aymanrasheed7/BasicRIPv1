@@ -19,7 +19,22 @@
 ## Usage
 After Compilation, multiple instances of the program can be run with the help of config files. The config files for a router contains the ip addresses of the interfaces of the router and its neighboring routers.
 
-Compilation in Windows: <pre> gcc RIP.c -lwsock32 </pre>
-Execution in Windows: <pre> \a.exe <config file> </pre>
-Compilation in Linux: <pre> gcc RIP.c </pre>
-Execution in Linux: <pre> \a.out <config file> </pre>
+### Compilation in Windows
+```bash
+gcc RIP.c -lwsock32
+```
+
+### Example of Execution in Windows
+```bash
+\a.exe ripR1.conf
+```
+
+### Compilation in Linux
+```bash
+gcc RIP.c
+```
+
+### Example of Execution in Linux
+```bash
+\a.out ripR1.conf
+```
